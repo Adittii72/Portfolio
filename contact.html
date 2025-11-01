@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Aditi</title>
+  <link rel="stylesheet" href="contact/contact.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container nav">
+      <div></div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="#" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-container">
+    <div class="contact-info">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/just_being._adi?igsh=MWwwdzhsYWd2YTBu" target="_blank">
+            <i class='bx bxl-instagram'></i> Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/aditi-shrimankar-163848356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class='bx bxl-linkedin'></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Adittii72" target="_blank">
+            <i class='bx bxl-github'></i> GitHub
+          </a>
+        </li>
+        <li><i class='bx bxs-envelope'></i> aditi1411ss@gmail.com</li>
+        <li><i class='bx bxs-phone-call'></i>+91 8799550781</li>
+      </ul>
+    </div>
+
+    <div class="contact-form">
+      <h2>Let's Connect!</h2>
+      <p>Ready to create together? Let’s begin here.</p>
+      <form id="form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Typing your message here..." required></textarea>
+        <button type="submit">SEND</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="contact/contact.js"></script>
+
+  <!-- Add this inside <body> after your form -->
+  <div id="customAlert" class="custom-alert">
+    <div class="custom-alert-content">
+      <h3>Aditi says</h3>
+      <p>Your message has been sent!</p>
+      <button onclick="closeAlert()">OK</button>
+    </div>
+  </div>
+
+</body>
+</html>
